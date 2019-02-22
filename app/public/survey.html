@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./ui.js"></script>
+</head>
+
+<body>
+    <br>
+    <header>
+        <div class="container">
+            <div id="" class="row">
+                <div id="" class="col-md-12">
+                    <h1>Survey Questions</h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <hr>
+
+    <main id="" class="container">
+
+        <div id="" class="row">
+            <div id="" class="col-md-12">
+                <h3>About You</h3>
+
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name (Required)</label>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <input type="input" class="form-control" id="name" placeholder="Johnny Rockstar">
+                                <small id="nameHelp" class="form-text text-muted">We'll/I'll never share your name with anyone else probably. Your secret is basically safe
+                                    with us/me.
+                                </small>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="photo">Link to Photo Image (Required)</label>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <input type="input" class="form-control" id="photo" placeholder="¯\_(ツ)_/¯">
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="form-group">
+                            <h4>Question 1</h4>
+                            <h6>
+                                <strong>Your mind is always buzzing with unexplored ideas and plans.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q1">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <h4>Question 2</h4>
+                            <h6>
+                                <strong>Generally speaking, you rely more on your experience than your imagination.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q2">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <h4>Question 3</h4>
+                            <h6>
+                                <strong>You find it easy to stay relaxed and focused even when there is some pressure.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q3">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <h4>Question 4</h4>
+                            <h6>
+                                <strong>You rarely do something just out of sheer curiosity.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q4">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <h4>Question 5</h4>
+                            <h6>
+                                <strong>People can rarely upset you.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q5">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <h4>Question 6</h4>
+                            <h6>
+                                <strong>It is often difficult for you to relate to other people’s feelings.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q6">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <h4>Question 7</h4>
+                            <h6>
+                                <strong>In a discussion, truth should be more important than people’s sensitivities.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q7">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <h4>Question 8</h4>
+                            <h6>
+                                <strong>You rarely get carried away by fantasies and ideas.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q8">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <h4>Question 9</h4>
+                            <h6>
+                                <strong>You think that everyone’s views should be respected regardless of whether they are supp</strong>ort6d
+                                by facts or not.</h5>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <select class="form-control" id="q9">
+                                            <option disabled selected>(Select an Option)</option>
+                                            <option>1 (Strongly disagree)</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5 (Strongly agree)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <h4>Question 10</h4>
+                            <h6>
+                                <strong>You feel more energetic after spending time with a group of people.</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="q10">
+                                        <option disabled selected>(Select an Option)</option>
+                                        <option>1 (Strongly disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5 (Strongly agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <br>
+
+
+                        <button id="submit" class="btn btn-primary col-md-12" type="submit" data-toggle="modal" data-target="#myModal">Submit</button>
+                </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <hr>
+
+    <div class="container">
+
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog " role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Your matched friend is: </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- <p>Modal body text goes here.</p> -->
+                        <div id="friendContent" class="">
+                            <!-- data will go here -->
+                                <!-- Friend name
+                                Friend pic -->
+                                <h2 id="friendName" class=""></h2>
+                                <br>
+                                <img id="friendPic" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="" class="container">
+        <div id="" class="row">
+            <h6>
+                <a href="/api/friends" target="">API Friends List</a>
+            </h6>
+            <h6>&nbsp;|&nbsp;</h6>
+            <h6>
+                <a href="https://github.com/charshaw/friendfinder" target="">GitHub Repo</a>
+            </h6>
+        </div>
+    </footer>
+    <br>
+</body>
+
+</html>

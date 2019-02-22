@@ -45,14 +45,15 @@ document.addEventListener("DOMContentLoaded", function () {
             $("#friendName").text(data.name);
             $("#friendPic").attr("src", data.photo);
 
-            // var friendName = $("<h2>").text(data.name);
-            // var lineBreak = $("<br>");
-            // var friendPic = $("<img>").attr("src", data.photo);
-            
-            // $("#friendContent").append(friendName, lineBreak, friendPic);
 
             $('#myModal').modal('toggle');
 
+            $("#name").val("");
+            $("#photo").val("");
+
+            dropdowns.forEach((answer) => {
+                answer.selectedIndex = 0;
+            });
 
         })
 
@@ -67,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         };
 
-        reset(dropdowns);
+        // reset(dropdowns);
     });
 
 

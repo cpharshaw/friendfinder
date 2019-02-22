@@ -23,14 +23,14 @@ let friends = [
         "scores": [
             2,
             3
-            ,9,
+            ,5,
             4,
             5,
-            7,
+            5,
             1,
-            6,
-            0,
-            0
+            5,
+            1,
+            1
         ]
     },
     {
@@ -39,12 +39,12 @@ let friends = [
         "scores": [
             4,
             2
-            ,6,
+            ,5,
             4,
             5,
             1,
-            9,
-            6,
+            5,
+            5,
             2,
             5
         ]
@@ -60,7 +60,7 @@ let friends = [
             5,
             1,
             4,
-            9,
+            1,
             5,
             2
         ]
@@ -70,14 +70,14 @@ let friends = [
         "photo": "https://yt3.ggpht.com/a-/AAuE7mDhsFI40nWm2qtfpu1KfTvzoAocVM0-QxMqqw=s900-mo-c-c0xffffffff-rj-k-no",
         "scores": [
             1,
-            9
+            3
             ,1,
             1,
-            9,
+            2,
             1,
-            9,
+            5,
             1,
-            9,
+            3,
             5
         ]
     }
